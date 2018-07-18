@@ -1,0 +1,196 @@
+/* reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    color: #fff;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #001D2E;
+    box-shadow: -15px 15px 50px 0 #001D2E;
+    width: 1024px;
+    height: 768px;
+}
+
+.tit {
+    position: absolute;
+    top: 60%;
+    left: 14%;
+    margin: 25px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+a.button {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    margin: 25px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+a.button:hover {
+    background: #fff;
+    color: #001D2E;
+    border: none;
+}
+
+.text {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    margin: 25px;
+    padding: 15px 20px;
+    line-height: 20px;
+    text-align: right;
+}
